@@ -1,0 +1,32 @@
+.main{
+    background-color: black;
+    height: 500px;
+}
+.main-sec{
+    background-color: blue;
+    height: 600px;
+    width: 580px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    opacity: 0.8;
+}
+.main-th{
+    background-color: rgb(0, 0, 73);
+    height: 280px;
+    width: 700px;
+    position: absolute;
+    top: 305px;
+    left: 680px;
+    /* opacity: 0.8; */
+}
+.heading{
+    color: white;
+    font-weight: bolder;
+    opacity: 1;
+    font-size: 5rem;
+    /* text-align: center; */
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
