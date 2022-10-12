@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "bootstrap-icons": "^1.9.1",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-scripts": "^5.0.1"
