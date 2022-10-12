@@ -15,6 +15,15 @@ function Home() {
             <div class="main-th">
 
             </div>
+                    <img alt="info" src={require('./assets/images/info1.jpg')}/>
+            <div class="info">
+                <div>
+
+                </div>
+                <div>
+        
+                </div>
+            </div>
         </section>
     );
 }

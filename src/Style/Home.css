@@ -22,11 +22,32 @@
 }
 .heading{
     color: white;
-    font-weight: bolder;
+    /* font-weight: bolder;- */
     opacity: 1;
     font-size: 5rem;
     /* text-align: center; */
     position: relative;
     top: 120px;
     left: 50px;
+}
+.info{
+    /* background-color: aquamarine; */
+    /* height: 500px; */
+}
+.info_img{
+    height: 500px;
+    position: absolute;
+    left: 1100px;
+}
+.heading2{
+    color: black;
+    font-weight: bold;
+    /* color: white; */
+    /* font-weight: bolder;- */
+    /* opacity: 1; */
+    font-size: 5rem;
+    /* text-align: center; */
+    position: absolute;
+    top: 800px;
+    left: 150px;
 }

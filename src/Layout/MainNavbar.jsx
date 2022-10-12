@@ -25,6 +25,9 @@ function MainNavbar() {
           <li class="nav-item">
             <a class="nav-link" href="#">Community</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
 
