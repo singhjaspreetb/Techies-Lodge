@@ -3,10 +3,10 @@ import "./index.css";
 import Home from "./Layout/Home";
 import MainNavbar from "./Layout/MainNavbar";
 function App() {
-  return <div>
+  return ( <div>
     <MainNavbar />
     <Home/>
-    </div>
+    </div>)
 }
 
 export default App;
