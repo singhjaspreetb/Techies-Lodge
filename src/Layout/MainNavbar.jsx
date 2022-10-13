@@ -28,6 +28,9 @@ function MainNavbar() {
           <li class="nav-item">
             <a class="nav-link" href="#">Blogs</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">
 

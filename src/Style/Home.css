@@ -36,8 +36,8 @@
 /* } */
 .info_img{
     height: 500px;
-    position: absolute;
-    left: 1100px;
+    position: relative;
+    left: 900px;
 }
 .heading2{
     color: black;
@@ -50,4 +50,12 @@
     position: absolute;
     top: 800px;
     left: 150px;
+}
+.sub_h2{
+    color:rgb(13, 13, 150)
+}
+.info_text{
+    max-width: 1350px;
+    padding: 150px;
+    font-size: 1.3rem;
 }
