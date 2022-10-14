@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Routes , Route } from 'react-router-dom';
 import classes from "../Style/Home.css";
 import info_img from "../assets/image/info1.jpg"
-function Home() {
+import MainNavbar from "../Layout/MainNavbar";
+function Homes() {
     return(
         <section class="main">
             <div class="main-sec">
@@ -37,4 +39,4 @@ function Home() {
         </section>
     );
 }
-export default Home;
+export default Homes;
