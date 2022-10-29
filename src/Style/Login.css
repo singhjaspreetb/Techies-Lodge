@@ -1,0 +1,10 @@
+.login-box {
+  padding-top: 10%;
+}
+
+.submit,
+.signup {
+  vertical-align: middle;
+  margin-top: auto;
+  padding: 2%;
+}
