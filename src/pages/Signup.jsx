@@ -73,7 +73,7 @@ function Signup() {
               </div>
             </Row>
             <Row className="justify-content-md-center">
-              Aleady have an account? <br />
+              Already have an account? <br />
               <center>
                 {" "}
                 <Link to="/Login">Login here</Link>
