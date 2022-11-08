@@ -1,9 +1,22 @@
 import React from "react";
 import { Routes , Route } from 'react-router-dom';
+import classes from './Hackathons.module.css'
+import Card from "../Layout/Card";
+
 function Hackathons() {
     return (
-        <div>Hackathons page</div>
+   <div>
 
+   <Card/>
+   <Card/>
+
+   </div>
+
+                   
+                
+            
+       
+        
     );
 }
 

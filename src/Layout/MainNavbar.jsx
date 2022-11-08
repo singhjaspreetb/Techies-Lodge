@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Footer from "./Footer";
 import classes from "../Style/MainNavbar.css";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
@@ -51,7 +52,9 @@ function MainNavbar() {
         </form>
       </div>
     </nav>
+    
     </header>
+    
   );
 }
 

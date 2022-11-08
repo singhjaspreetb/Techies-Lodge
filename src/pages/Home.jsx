@@ -4,6 +4,7 @@ import { Routes , Route } from 'react-router-dom';
 import classes from "../Style/Home.css";
 import info_img from "../assets/image/info1.jpg"
 import MainNavbar from "../Layout/MainNavbar";
+import Footer from "../Layout/Footer";
 function Homes() {
     return(
         <section class="main">
@@ -36,7 +37,11 @@ function Homes() {
             helping creaters or entrapenours in selecting best possible team for their projects 
             or startups and skilled people can also see publicly listed projects which match with their intrests and skills.
             </p>
+            <div>
+              <Footer/>
+            </div>
         </section>
+        
     );
 }
 export default Homes;

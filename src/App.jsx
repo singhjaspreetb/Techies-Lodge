@@ -11,7 +11,6 @@ import Community from "./pages/Community";
 import Events from "./pages/Events";
 import Hackathons from "./pages/Hackathons";
 import Login from "./pages/Login";
-
 import Signup from "./pages/Signup";
 import Resources from "./pages/Resources";
 
