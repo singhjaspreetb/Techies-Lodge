@@ -4,7 +4,7 @@
 }
 .main-sec{
     background-color: rgb(13, 13, 150);
-    height: 600px;
+    height: 550px;
     width: 580px;
     position: relative;
     top: 50px;
@@ -14,10 +14,10 @@
 .main-th{
     background-color: rgb(0, 0, 73);
     height: 280px;
-    width: 700px;
+    width: 600px;
     position: absolute;
-    top: 305px;
-    left: 680px;
+    top: 375px;
+    left: 740px;
     /* opacity: 0.8; */
 }
 .heading{
@@ -27,7 +27,7 @@
     font-size: 5rem;
     /* text-align: center; */
     position: relative;
-    top: 120px;
+    top: 80px;
     left: 50px;
 }
 /* .info{ */
@@ -40,7 +40,7 @@
     left: 900px;
 }
 .heading2{
-    color: black;
+    color: white;
     font-weight: bold;
     /* color: white; */
     /* font-weight: bolder;- */
@@ -58,4 +58,5 @@
     max-width: 1350px;
     padding: 150px;
     font-size: 1.3rem;
+    color: white;
 }
