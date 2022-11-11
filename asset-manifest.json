@@ -1,7 +1,7 @@
 {
-  "main.css": "/Techies-Lodge/static/css/main.c6539295.chunk.css",
-  "main.js": "/Techies-Lodge/static/js/main.4be9486c.chunk.js",
-  "main.js.map": "/Techies-Lodge/static/js/main.4be9486c.chunk.js.map",
+  "main.css": "/Techies-Lodge/static/css/main.c5bbbdae.chunk.css",
+  "main.js": "/Techies-Lodge/static/js/main.42d6d3b5.chunk.js",
+  "main.js.map": "/Techies-Lodge/static/js/main.42d6d3b5.chunk.js.map",
   "static/js/1.2266c54c.chunk.js": "/Techies-Lodge/static/js/1.2266c54c.chunk.js",
   "static/js/1.2266c54c.chunk.js.map": "/Techies-Lodge/static/js/1.2266c54c.chunk.js.map",
   "runtime~main.js": "/Techies-Lodge/static/js/runtime~main.a075e703.js",
@@ -28,8 +28,8 @@
   "static/media/python.png": "/Techies-Lodge/static/media/python.69fc271f.png",
   "static/media/Blogs.css": "/Techies-Lodge/static/media/banner1.162baf25.png",
   "static/media/Events.css": "/Techies-Lodge/static/media/intro-bg.1547d788.jpg",
-  "static/css/main.c6539295.chunk.css.map": "/Techies-Lodge/static/css/main.c6539295.chunk.css.map",
+  "static/css/main.c5bbbdae.chunk.css.map": "/Techies-Lodge/static/css/main.c5bbbdae.chunk.css.map",
   "index.html": "/Techies-Lodge/index.html",
-  "precache-manifest.4f8150ee85149c1b9790f58f720c85db.js": "/Techies-Lodge/precache-manifest.4f8150ee85149c1b9790f58f720c85db.js",
+  "precache-manifest.939832c5a6c6438f74c3414ae84900d2.js": "/Techies-Lodge/precache-manifest.939832c5a6c6438f74c3414ae84900d2.js",
   "service-worker.js": "/Techies-Lodge/service-worker.js"
 }
