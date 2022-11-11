@@ -42,8 +42,8 @@ body{
   clip-path: circle(300px at 80% -20%);
 }
 
-.container .card:after{
-  content: 'Android';
+.cont-frnt .card:after{
+  content: 'frontend';
   position: absolute;
   top: 45%;
   left: -5%;
@@ -52,10 +52,90 @@ body{
   font-style: italic;
   color: rgba(255,255,25,0.05)
 }
+.cont-back .card:after{
+  content: 'backend';
+  position: absolute;
+  top: 45%;
+  left: -5%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-dops .card:after{
+  content: 'devops';
+  position: absolute;
+  top: 45%;
+  left: 3%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-rct .card:after{
+  content: 'react';
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-ang .card:after{
+  content: 'angular';
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-flt .card:after{
+  content: 'flutter';
+  position: absolute;
+  top: 45%;
+  left: 8%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-bchain .card:after{
+  content: 'blockchain';
+  position: absolute;
+  top: 45%;
+  left: -10%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-java .card:after{
+  content: 'java';
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.cont-py .card:after{
+  content: 'python';
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
 
 .container .card .imgBx{
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   z-index: 10000;
   width: 100%;
@@ -74,7 +154,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-25deg);
-  width: 270px;
+  width: 240px;
 }
 
 .container .card .contentBx{
