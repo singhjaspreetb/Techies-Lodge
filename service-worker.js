@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Techies-Lodge/precache-manifest.185798d93f9384864afaa499d616310f.js"
+  "/Techies-Lodge/precache-manifest.4f8150ee85149c1b9790f58f720c85db.js"
 );
 
 workbox.clientsClaim();
