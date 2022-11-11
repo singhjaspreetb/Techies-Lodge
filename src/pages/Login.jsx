@@ -12,7 +12,7 @@ import Footer from "../Layout/Footer";
 function Login() {
   return (
     <section class="login-box">
-      <div class="login-card">
+      <div class="login-card mb-5">
         <Card style={{ width: "25rem" }}>
           <Card.Body>
             <center>
@@ -58,8 +58,8 @@ function Login() {
           </Row>
         </Card>
       </div>
-      <div>
-              <Footer/>
+      <div class="mt-5">
+              {/* <Footer/> */}
       </div>
     </section>
   );
