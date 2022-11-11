@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "main": "src/index.js",
   "homepage": "https://singhjaspreetb.github.io/Techies-Lodge/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
