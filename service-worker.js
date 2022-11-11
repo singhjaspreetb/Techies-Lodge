@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Techies-Lodge/public/index.html/precache-manifest.af89620a14b4c8dd7fb9e6a21aa118d3.js"
+  "/Techies-Lodge/precache-manifest.b743c261b17ebc8334d51b260d71531e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Techies-Lodge/public/index.html/index.html", {
+workbox.routing.registerNavigationRoute("/Techies-Lodge/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
