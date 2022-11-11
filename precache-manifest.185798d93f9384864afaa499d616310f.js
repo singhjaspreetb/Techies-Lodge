@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "e741678db04027dfb495",
-    "url": "/Techies-Lodge/static/css/main.17086204.chunk.css"
+    "revision": "cba125c8063d21185a99",
+    "url": "/Techies-Lodge/static/css/main.38d61485.chunk.css"
   },
   {
-    "revision": "e741678db04027dfb495",
-    "url": "/Techies-Lodge/static/js/main.e741678d.chunk.js"
+    "revision": "cba125c8063d21185a99",
+    "url": "/Techies-Lodge/static/js/main.cba125c8.chunk.js"
   },
   {
-    "revision": "2451c3153b7cbf086829",
-    "url": "/Techies-Lodge/static/js/1.2451c315.chunk.js"
+    "revision": "b72b98cba93308f7ac1f",
+    "url": "/Techies-Lodge/static/js/1.b72b98cb.chunk.js"
   },
   {
     "revision": "a075e7039a71dc301407",
     "url": "/Techies-Lodge/static/js/runtime~main.a075e703.js"
-  },
-  {
-    "revision": "8f6d437d59f2d47bac877d0dbe8fa818",
-    "url": "/Techies-Lodge/static/media/android.8f6d437d.png"
   },
   {
     "revision": "87322be2fdfee2349a273db05cf87879",
@@ -80,6 +76,34 @@ self.__precacheManifest = [
     "url": "/Techies-Lodge/static/media/hackathon1.cda3a359.jpg"
   },
   {
+    "revision": "05c864e4eac0ddaf92167984e6ad5ba4",
+    "url": "/Techies-Lodge/static/media/frontend.05c864e4.png"
+  },
+  {
+    "revision": "d05b01bc61850b41552fc92b9cfd1d09",
+    "url": "/Techies-Lodge/static/media/backend.d05b01bc.png"
+  },
+  {
+    "revision": "a4bd27855cb3024dc5e98f6779037c27",
+    "url": "/Techies-Lodge/static/media/devops.a4bd2785.png"
+  },
+  {
+    "revision": "70f87bba34487dc1c0cb8916d800c63b",
+    "url": "/Techies-Lodge/static/media/react.70f87bba.png"
+  },
+  {
+    "revision": "31c32993d271568ad3566ae22807f6e7",
+    "url": "/Techies-Lodge/static/media/blockchain.31c32993.png"
+  },
+  {
+    "revision": "74e943d82452f81f6a0bb0b51ac6785d",
+    "url": "/Techies-Lodge/static/media/java.74e943d8.png"
+  },
+  {
+    "revision": "69fc271ff09776c5795eb1070e323527",
+    "url": "/Techies-Lodge/static/media/python.69fc271f.png"
+  },
+  {
     "revision": "4ea3c4b61cb7c765f986d6ccc1efa001",
     "url": "/Techies-Lodge/static/media/test_bg.4ea3c4b6.jpg"
   },
@@ -96,7 +120,7 @@ self.__precacheManifest = [
     "url": "/Techies-Lodge/static/media/intro-bg.1547d788.jpg"
   },
   {
-    "revision": "b413f34051bcbc3b2deff75bc775f636",
+    "revision": "d2fbb917c32e1bfa72277d829da4cac7",
     "url": "/Techies-Lodge/index.html"
   }
 ];
