@@ -13,10 +13,6 @@ import img8 from "../assets/image/our_img3.jpg";
 import img9 from "../assets/image/our_img4.jpg";
 import img10 from "../assets/image/our_img5.jpg";
 import img11 from "../assets/image/plan1.png";
-import img12 from "../assets/image/test_bg.jpg";
-import img13 from "../assets/image/box_img.png";
-import img14 from "../assets/image/box_img.png";
-import img15 from "../assets/image/box_img.png";
 
 function Blogs() {
     return (
