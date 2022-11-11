@@ -1,10 +1,10 @@
 import React from "react";
-import { Routes , Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import classes from "../Style/Footer.css"
 function Footer() {
-    return (
-        // <div classname={classes.Footer}>
-             <footer class="footer-20192">
+  return (
+    // <div classname={classes.Footer}>
+    <footer class="footer-20192">
       <div class="site-section">
         <div class="container">
 
@@ -59,14 +59,14 @@ function Footer() {
                 <li><a href="#"><span class="icon-paper-plane"></span></a></li>
               </ul>
             </div>
-            
+
           </div>
         </div>
       </div>
     </footer>
-        // </div>
+    // </div>
 
-    );
+  );
 }
 
 export default Footer;
