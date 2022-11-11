@@ -33,9 +33,9 @@ function MainNavbar() {
           <li class="nav-item">
             <Link to="/Blogs" className="nav-link" >Blogs</Link>
           </li>
-          <li class="nav-item">
+          {/* <li class="nav-item">
             <Link to="/About" className="nav-link" >About</Link>
-          </li>
+          </li> */}
         </ul>
         <form className="form-inline my-2 my-lg-0">
 

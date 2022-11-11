@@ -19,7 +19,7 @@ function Homes() {
             <div class="main-th">
 
             </div>
-            <div class="info">
+            <div class="infoh">
                 <div class="">
                     <h1 class="heading2">
                     Single<br></br>

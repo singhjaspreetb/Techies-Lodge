@@ -14,7 +14,7 @@ body {
     overflow: hidden;
     margin: 3em auto;
     height: 350px;
-    width: 700px;
+    width: 600px;
 }
 .product-details {
     position: relative;
@@ -23,7 +23,7 @@ body {
     padding: 30px;
     height: 100%;
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 #container .product-details h1 {

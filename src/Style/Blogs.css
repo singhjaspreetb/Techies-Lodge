@@ -86,7 +86,7 @@
 }
 
 .our_two_box {
-    box-shadow: #ddd 0px 0px 10px 0px;
+    box-shadow: 0 10px 20px 1px rgb(4, 0, 130);
     margin-bottom: 90px;
 }
 
@@ -170,7 +170,7 @@ ul.withi_color {
 
 .three_box {
     padding: 20px 20px;
-    box-shadow: #ddd 0px 0px 10px 0px;
+    box-shadow: 0 10px 20px 1px rgb(4, 0, 130);
 }
 
 .three_box p {
