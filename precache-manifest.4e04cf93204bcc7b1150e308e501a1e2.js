@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "42d6d3b569e3298db9b7",
+    "revision": "25d9ffec95bda0560840",
     "url": "/Techies-Lodge/static/css/main.c5bbbdae.chunk.css"
   },
   {
-    "revision": "42d6d3b569e3298db9b7",
-    "url": "/Techies-Lodge/static/js/main.42d6d3b5.chunk.js"
+    "revision": "25d9ffec95bda0560840",
+    "url": "/Techies-Lodge/static/js/main.25d9ffec.chunk.js"
   },
   {
     "revision": "2266c54ca219490cded7",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/Techies-Lodge/static/media/intro-bg.1547d788.jpg"
   },
   {
-    "revision": "ba164b053931a34b610c6ebebab024f0",
+    "revision": "2edcb9d6b82cdc78c936174f42b9d67b",
     "url": "/Techies-Lodge/index.html"
   }
 ];
