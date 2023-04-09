@@ -31,7 +31,8 @@ function MainNavbar() {
             <Link to="/Community" className="nav-link" >Community</Link>
           </li>
           <li class="nav-item">
-            <Link to="/Blogs" className="nav-link" >Blogs</Link>
+            {/* <Link to="/Blogs" className="nav-link" >Blogs</Link> */}
+            <a href="https://bloggerszone.vercel.app/"  className="nav-link" target="_blank">Blogs</a>
           </li>
           {/* <li class="nav-item">
             <Link to="/About" className="nav-link" >About</Link>
