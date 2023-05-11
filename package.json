@@ -1,0 +1,40 @@
+{
+  "name": "introduction-to-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "https://singhjaspreetb.github.io/Techies-Lodge/",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^17.0.2",
+    "react-is": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "^2.1.3",
+    "web-vitals": "^3.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

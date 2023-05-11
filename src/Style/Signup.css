@@ -1,0 +1,15 @@
+.signup-box {
+  padding-top: 2%;
+}
+
+.signup-card {
+  display: flex;
+  justify-content: center;
+}
+
+.submit,
+.signup {
+  vertical-align: middle;
+  margin-top: auto;
+  padding: 2%;
+}
