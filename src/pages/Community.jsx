@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes , Route } from 'react-router-dom';
+import ChatRoom from "../Layout/ChatRoom";
 function Community() {
     return (
-        <div>Community page</div>
-
+        <ChatRoom className="chatroom"/>
     );
 }
 

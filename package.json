@@ -16,7 +16,9 @@
     "react-dom": "^17.0.2",
     "react-is": "^18.2.0",
     "react-router-dom": "^6.4.2",
-    "react-scripts": "^2.1.3",
+    "react-scripts": "^5.0.1",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3",
     "web-vitals": "^3.0.3"
   },
   "devDependencies": {
@@ -28,8 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
