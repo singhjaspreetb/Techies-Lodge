@@ -6,6 +6,7 @@ import Hackathons from "./pages/Hackathons";
 import Event from "./pages/Event"
 import Resources from "./pages/Resources";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Community from "./pages/Community";
 
 const Layout = () => {
   return (
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/hackathons",
         element: <Hackathons />,
+      },
+      {
+        path: "/community",
+        element: <Community />,
       },
       {
         path: "/resources",

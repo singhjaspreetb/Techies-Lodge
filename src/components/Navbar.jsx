@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* <img  alt="Techies-Lodge" className="w-[124px] h-[32px]" /> */}
+      <h1 className="text-[2rem] font-semibold text-white">Techies Lodge</h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

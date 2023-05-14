@@ -1,8 +1,11 @@
 import React from 'react'
+import ChatRoom from '../components/ChatRoom'
 
 const Community = () => {
     return (
-        <div>Community</div>
+        <div class="flex min-h-screen items-center justify-center bg-black-800">
+            <ChatRoom />
+        </div>
     )
 }
 
