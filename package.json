@@ -1,8 +1,14 @@
-{
+{ 
+  "homepage": "https://pratikkumar399.github.io/techies-lodge",
   "name": "techies-lodge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
   "scripts": {
     "dev": "vite --port 3000",
     "predeploy": "npm run build",

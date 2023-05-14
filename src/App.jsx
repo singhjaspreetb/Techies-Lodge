@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Hackathons from "./pages/Hackathons";
 import Event from "./pages/Event"
 import Resources from "./pages/Resources";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, HashRouter, RouterProvider, Outlet } from "react-router-dom";
 import Community from "./pages/Community";
 
 const Layout = () => {
