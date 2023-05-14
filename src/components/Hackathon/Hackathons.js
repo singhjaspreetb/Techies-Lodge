@@ -1,6 +1,3 @@
-import React from 'react';
-import Card from "../components/Hackathon/Card"
-// import hackathons from '../components/Hackathon/Hackathondata';
 const hackathons = [
     {
         id: 1,
@@ -32,18 +29,4 @@ const hackathons = [
     },
 ];
 
-const Hackathons = () => {
-    return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {hackathons.map((hackathon) => (
-                <Card key={hackathon.id} {...hackathon} />
-            ))}
-        </div>
-    );
-};
-
-export default Hackathons;
-
-
-
-
+export default hackathons;

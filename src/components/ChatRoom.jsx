@@ -162,18 +162,16 @@ const ChatRoom = () => {
                     </div>}
                 </div>
                 :
-                <div className="register">
-                    <input
+                <div className="flex justify-center">
+                    <input className='rounded-xl'
                         id="user-name"
-                        placeholder="Enter your name"
+                        placeholder="   Enter your name"
                         name="userName"
                         value={userData.username}
                         onChange={handleUsername}
                         margin="normal"
                     />
-                    <button className='connect-button' type="button" onClick={registerUser}>
-                        connect
-                    </button>
+                    <button className="px-8 py-4 mx-4 rounded-lg bg-gray-800 text-white hover:bg-blue-600 transition-colors duration-300 ease-in-out" onClick={registerUser}>Connect</button>
                 </div>}
         </div>
     )

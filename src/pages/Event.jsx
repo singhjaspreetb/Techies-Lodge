@@ -1,5 +1,6 @@
 import HeroSection from "../components/Events/Herosection";
 import styles from "../style";
+import CTA from "../components/CTA"
 function Event() {
     return (
         <div>
@@ -8,12 +9,6 @@ function Event() {
                     <HeroSection />
                 </div>
             </div>
-
-            {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <CTA />
-                </div>
-            </div> */}
         </div>
     );
 }
