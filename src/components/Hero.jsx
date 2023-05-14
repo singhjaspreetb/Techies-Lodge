@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, hero, robot } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        {/* <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" /> */}
+        <img src={hero} alt="billing" className="w-[100%] h-[75%] relative z-[5] animate-float" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
