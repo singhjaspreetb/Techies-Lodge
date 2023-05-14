@@ -46,8 +46,8 @@ function Hackathons() {
 
     return (
         <>
-            <div class="flex min-h-screen items-center justify-center bg-primary-900">
-                <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex min-h-screen items-center justify-center bg-primary-900">
+                <div className="z-1 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
 
                     {hackdata.map((hackathon, index) => (
                         <Card key={index} image={hackathon.image} name={hackathon.name} place={hackathon.place} value={hackathon.value} />
