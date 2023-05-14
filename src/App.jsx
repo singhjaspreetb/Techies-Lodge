@@ -33,31 +33,27 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "Techies-Lodge",
         element: <Home />,
       },
       {
-        path: "/Techies-Lodge",
+        path: "Techies-Lodge/home",
         element: <Home />,
       },
       {
-        path: "/home",
-        element: <Home />,
-      },
-      {
-        path: "/events",
+        path: "Techies-Lodge/events",
         element: <Event />,
       },
       {
-        path: "/hackathons",
+        path: "Techies-Lodge/hackathons",
         element: <Hackathons />,
       },
       {
-        path: "/community",
+        path: "Techies-Lodge/community",
         element: <Community />,
       },
       {
-        path: "/resources",
+        path: "Techies-Lodge/resources",
         element: <Resources />,
       }
     ],
