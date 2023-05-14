@@ -10,13 +10,65 @@ import info_img8 from "../assets/image/java.png";
 import info_img9 from "../assets/image/python.png";
 import CTA from "../components/CTA"
 import styles from "../style";
+import ResCard from "../components/ResCard";
 
 function Hackathons() {
+    const resources = [
+        {
+            name: "Frontend",
+            link: "https://roadmap.sh/frontend",
+            image: info_img1,
+        },
+        {
+            name: "Backend",
+            link: "https://roadmap.sh/backend",
+            image: info_img2,
+        },
+        {
+            name: "Flutter",
+            link: "https://roadmap.sh/flutter",
+            image: info_img6,
+        },
+        {
+            name: "React",
+            link: "https://roadmap.sh/react",
+            image: info_img4,
+        },
+        {
+            name: "Blockchain",
+            link: "hhttps://roadmap.sh/blockchain",
+            image: info_img7,
+        },
+        {
+            name: "Devops",
+            link: "hhttps://roadmap.sh/devops",
+            image: info_img3,
+        },
+        {
+            name: "Angular",
+            link: "hhttps://roadmap.sh/angular",
+            image: info_img5,
+        },
+        {
+            name: "Java",
+            link: "hhttps://roadmap.sh/java",
+            image: info_img8,
+        },
+        {
+            name: "Python",
+            link: "hhttps://roadmap.sh/python",
+            image: info_img9,
+        },
+    ];
     return (
         <>
             <div class="flex min-h-screen items-center justify-center bg-primary-900">
-
                 <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                    {resources.map((res, index) => (
+                        <ResCard key={index} image={res.image} name={res.name} link={res.place} />
+                    ))}
+                </div>
+                {/* <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
                     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                         <div class="h-96 w-72">
                             <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img1} alt="" />
@@ -135,7 +187,7 @@ function Hackathons() {
                         </div>
                     </div>
                     <br />
-                </div>
+                </div> */}
 
             </div>
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
