@@ -37,6 +37,10 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "/Techies-Lodge",
+        element: <Home />,
+      },
+      {
         path: "/home",
         element: <Home />,
       },

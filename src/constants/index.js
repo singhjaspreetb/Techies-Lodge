@@ -14,7 +14,7 @@ export const navLinks = [
     title: "Community"
   },
   {
-    id: "blogs",
+    id: "https://bloggerszone.vercel.app/",
     title: "Blogs",
   },
   {
