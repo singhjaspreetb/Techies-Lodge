@@ -1,10 +1,12 @@
-import React from "react";
-import { Routes , Route } from 'react-router-dom';
-import ChatRoom from "../Layout/ChatRoom";
-function Community() {
+import React from 'react'
+import ChatRoom from '../components/ChatRoom'
+
+const Community = () => {
     return (
-        <ChatRoom className="chatroom"/>
-    );
+        <div class="flex min-h-screen items-center justify-center bg-black-800">
+            <ChatRoom />
+        </div>
+    )
 }
 
-export default Community;
+export default Community
