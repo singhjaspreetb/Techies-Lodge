@@ -1,36 +1,65 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-
-import "./index.css";
-
-import Layout from "./Layout/Layout";
-import Homes from "./pages/Home";
-import About from "./pages/About";
-import Blogs from "./pages/Blogs";
-import Community from "./pages/Community";
-import Events from "./pages/Events";
+import styles from "./style"
+import Home from "./pages/Home"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Hackathons from "./pages/Hackathons";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Event from "./pages/Event"
 import Resources from "./pages/Resources";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
-function App() {
+const Layout = () => {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Homes />} />
-        <Route path="/Blogs" element={<Blogs />} />
-        <Route path="/Hackathons" element={<Hackathons />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Community" element={<Community />} />
-        <Route path="/Resources" element={<Resources />} />
-        <Route path="/Events" element={<Events />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Signup" element={<Signup />} />
-        {/* <Route path='/Hackathons' element={<Hackathons />} /> */}
-      </Routes>
-    </Layout>
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+      <Outlet />
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
+      </div>
+    </div>
   );
-}
+};
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/home",
+        element: <Home />,
+      },
+      {
+        path: "/events",
+        element: <Event />,
+      },
+      {
+        path: "/hackathons",
+        element: <Hackathons />,
+      },
+      {
+        path: "/resources",
+        element: <Resources />,
+      }
+    ],
+  },
+]);
+
+
+const App = () => (
+  <div>
+    <RouterProvider router={router} />
+  </div>
+);
 
 export default App;

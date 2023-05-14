@@ -1,155 +1,144 @@
 import React from "react";
-import { Routes, Route } from 'react-router-dom';
-import classes from '../Style/Hackathons.css'
-import Footer from "../Layout/Footer";
+import info_img1 from "../assets/image/frontend.png";
+import info_img2 from "../assets/image/backend.png";
+import info_img3 from "../assets/image/devops.png";
+import info_img4 from "../assets/image/react.png";
+import info_img5 from "../assets/image/angular.png";
+import info_img6 from "../assets/image/flutter.png";
+import info_img7 from "../assets/image/blockchain.png";
+import info_img8 from "../assets/image/java.png";
+import info_img9 from "../assets/image/python.png";
+
 
 function Hackathons() {
     return (
-        <div>
-            <div class="row">
-                <div class=" col-lg-6">
-                    <div id="container">
-                        <div class="product-details">
-                            <h1>Dev-Hive-thon</h1>
-                            <span class="hint-star star">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </span>
-                            <p class="information">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime consectetur. Unde ab nulla facilis impedit quisquam at beatae enim. "</p>
-                            <div class="control">
-                                <button class="btn">
-                                    {/* <span class="price">$250</span> */}
-                                    {/* <span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> */}
-                                    <span class="buy">Register now</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <img src="https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" />
-                            <div class="info">
-                                <h2> Description</h2>
-                                <ul>
-                                    <li><strong>Members : </strong>5</li>
-                                    <li><strong>Tech : </strong>BLockChain</li>
-                                    <li><strong>Date : </strong>12 Dev 2022 </li>
-                                    <li><strong>Place : </strong>Chandigarh University</li>
-                                </ul>
-                            </div>
-                        </div>
+
+        <div class="flex min-h-screen items-center justify-center bg-black-800">
+            <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img1} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
                     </div>
                 </div>
-                <div class=" col-lg-6">
-                    <div id="container">
-                        <div class="product-details">
-                            <h1>Dev-Hive-thon</h1>
-                            <span class="hint-star star">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </span>
-                            <p class="information">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime consectetur. Unde ab nulla facilis impedit quisquam at beatae enim. "</p>
-                            <div class="control">
-                                <button class="btn">
-                                    {/* <span class="price">$250</span> */}
-                                    {/* <span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> */}
-                                    <span class="buy">Register now</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <img src="https://images.unsplash.com/photo-1626908013351-800ddd734b8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" alt="" />
-                            <div class="info">
-                                <h2> Description</h2>
-                                <ul>
-                                    <li><strong>Members : </strong>5</li>
-                                    <li><strong>Tech : </strong>BLockChain</li>
-                                    <li><strong>Date : </strong>12 Dev 2022 </li>
-                                    <li><strong>Place : </strong>Chandigarh University</li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img2} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
                     </div>
                 </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img3} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img4} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img5} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img6} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img7} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img8} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                    <div class="h-96 w-72">
+                        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={info_img9} alt="" />
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <h1 class="font-dmserif text-3xl font-bold text-white">Frontend</h1>
+                        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow this roadmap and learn frontend to make exciting and mindblowing websites</p>
+                        <a href="https://roadmap.sh/frontend">
+                            <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </a>
+                    </div>
+                </div>
+
+
+
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div id="container">
-                        <div class="product-details">
-                            <h1>Dev-Hive-thon</h1>
-                            <span class="hint-star star">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </span>
-                            <p class="information">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime consectetur. Unde ab nulla facilis impedit quisquam at beatae enim. "</p>
-                            <div class="control">
-                                <button class="btn">
-                                    {/* <span class="price">$250</span> */}
-                                    {/* <span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> */}
-                                    <span class="buy">Register now</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <img src="https://images.unsplash.com/photo-1549317336-206569e8475c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" />
-                            <div class="info">
-                                <h2> Description</h2>
-                                <ul>
-                                    <li><strong>Members : </strong>5</li>
-                                    <li><strong>Tech : </strong>BLockChain</li>
-                                    <li><strong>Date : </strong>12 Dev 2022 </li>
-                                    <li><strong>Place : </strong>Chandigarh University</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div id="container">
-                        <div class="product-details">
-                            <h1>Dev-Hive-thon</h1>
-                            <span class="hint-star star">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </span>
-                            <p class="information">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime consectetur. Unde ab nulla facilis impedit quisquam at beatae enim. "</p>
-                            <div class="control">
-                                <button class="btn">
-                                    {/* <span class="price">$250</span> */}
-                                    {/* <span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> */}
-                                    <span class="buy">Register now</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <img src="https://images.unsplash.com/photo-1546146477-15a587cd3fcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="" />
-                            <div class="info">
-                                <h2> Description</h2>
-                                <ul>
-                                    <li><strong>Members : </strong>5</li>
-                                    <li><strong>Tech : </strong>BLockChain</li>
-                                    <li><strong>Date : </strong>12 Dev 2022 </li>
-                                    <li><strong>Place : </strong>Chandigarh University</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-5">
-                <Footer />
-            </div>
+
         </div>
+
     );
 }
 
