@@ -33,6 +33,9 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
+        path: "",
+        element: <Home />,
+      },{
         path: "Techies-Lodge",
         element: <Home />,
       },
