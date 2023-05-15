@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="z-50 w-full flex py-6 justify-between items-center navbar">
       {/* <img  alt="Techies-Lodge" className="w-[124px] h-[32px]" /> */}
       <h1 className="text-[2rem] font-semibold text-white">Techies Lodge</h1>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
           className={`${!toggle ? "hidden" : "flex"
             } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="z-5 list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}

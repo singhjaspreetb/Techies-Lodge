@@ -7,46 +7,52 @@ import img from "../assets/image/hackathon1.jpg"
 import img2 from "../assets/image/hackathon2.png"
 import CTA from "../components/CTA"
 import styles from "../style";
-
-const hackathons = [
-    {
-        id: 1,
-        name: 'Hack the Future',
-        place: 'San Francisco, CA',
-        value: 5000,
-        image: 'https://picsum.photos/id/1/400/300',
-    },
-    {
-        id: 2,
-        name: 'CodeFest',
-        place: 'New York, NY',
-        value: 7500,
-        image: 'https://picsum.photos/id/2/400/300',
-    },
-    {
-        id: 3,
-        name: 'HackathonX',
-        place: 'Seattle, WA',
-        value: 10000,
-        image: 'https://picsum.photos/id/3/400/300',
-    },
-    {
-        id: 4,
-        name: 'Hacker Paradise',
-        place: 'Miami, FL',
-        value: 2500,
-        image: 'https://picsum.photos/id/4/400/300',
-    },
-];
+import Card from "../components/Card";
 
 
 
 function Hackathons() {
+
+    const hackdata = [
+        {
+            id: 1,
+            name: 'Hack the Future',
+            place: 'San Francisco, CA',
+            value: 5000,
+            image: 'https://picsum.photos/id/1/400/300',
+        },
+        {
+            id: 2,
+            name: 'CodeFest',
+            place: 'New York, NY',
+            value: 7500,
+            image: 'https://picsum.photos/id/2/400/300',
+        },
+        {
+            id: 3,
+            name: 'HackathonX',
+            place: 'Seattle, WA',
+            value: 10000,
+            image: 'https://picsum.photos/id/3/400/300',
+        },
+        {
+            id: 4,
+            name: 'Hacker Paradise',
+            place: 'Miami, FL',
+            value: 2500,
+            image: 'https://picsum.photos/id/4/400/300',
+        },
+    ];
+
     return (
         <>
-            <div class="flex min-h-screen items-center justify-center bg-primary-900">
+            <div className="flex min-h-screen items-center justify-center bg-primary-900">
+                <div className="z-1 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
 
-                <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                    {hackdata.map((hackathon, index) => (
+                        <Card key={index} image={hackathon.image} name={hackathon.name} place={hackathon.place} value={hackathon.value} />
+                    ))}
+                    {/* <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
                     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                         <div class="h-96 w-72">
                             <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img} alt="" />
@@ -130,8 +136,8 @@ function Hackathons() {
 
 
                     <br />
+                </div> */}
                 </div>
-
             </div>
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
