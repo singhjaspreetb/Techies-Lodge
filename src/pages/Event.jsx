@@ -1,6 +1,5 @@
 import HeroSection from "../components/Events/Herosection";
 import styles from "../style";
-import CTA from "../components/CTA"
 function Event() {
     return (
         <>

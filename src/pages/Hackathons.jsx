@@ -47,12 +47,12 @@ function Hackathons() {
     return (
         <>
             <div className="flex min-h-screen items-center justify-center bg-primary-900">
-                <div className="z-1 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
 
-                    {hackdata.map((hackathon, index) => (
+
+                {/* {hackdata.map((hackathon, index) => (
                         <Card key={index} image={hackathon.image} name={hackathon.name} place={hackathon.place} value={hackathon.value} />
-                    ))}
-                    {/* <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                    ))} */}
+                <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
                     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                         <div class="h-96 w-72">
                             <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img} alt="" />
@@ -136,9 +136,9 @@ function Hackathons() {
 
 
                     <br />
-                </div> */}
                 </div>
             </div>
+
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <CTA heading="Subsribe Now" text="Get Notifications directly in your mailbox" />
