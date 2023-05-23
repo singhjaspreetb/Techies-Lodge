@@ -21,6 +21,7 @@ const Navbar = () => {
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
+            {/* this was changed from a tag to link tag in order to modify the routing on the server side */}
             <Link to={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
