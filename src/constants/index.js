@@ -10,7 +10,7 @@ export const navLinks = [
     title: "Events",
   },
   {
-    id: "community",
+    id: "/community",
     title: "Community"
   },
   {
@@ -18,11 +18,11 @@ export const navLinks = [
     title: "Blogs",
   },
   {
-    id: "hackathons",
+    id: "/hackathons",
     title: "Hackathons",
   },
   {
-    id: "resources",
+    id: "/resources",
     title: "Resources",
 
   }
