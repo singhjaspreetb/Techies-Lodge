@@ -36,14 +36,14 @@ const Layout = () => {
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/" component={<Layout />}>
-        <Route index component={<Home />} />
-        <Route path="/home" exact component={<Home />} />
-        <Route path="/events" exact component={<Event />} />
-        <Route path="/blogs" component={<Blogs />} />
-        <Route path="/hackathons" component={<Hackathons />} />
-        <Route path="/community" component={<Community />} />
-        <Route path="/resources" component={<Resources />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/events" element={<Event />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/hackathons" element={<Hackathons />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/resources" element={<Resources />} />
       </Route>
     </Routes>
   </Router>
