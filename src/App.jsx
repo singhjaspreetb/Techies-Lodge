@@ -36,9 +36,9 @@ const Layout = () => {
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/techies-lodge.vercel.app" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="home" element={<Home />} />
         <Route path="/events" element={<Event />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/hackathons" element={<Hackathons />} />
