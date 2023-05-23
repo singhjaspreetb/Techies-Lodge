@@ -36,7 +36,7 @@ const Layout = () => {
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="https://techies-lodge.vercel.app/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/events" element={<Event />} />
