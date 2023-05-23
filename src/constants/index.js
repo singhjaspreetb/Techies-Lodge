@@ -2,15 +2,15 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/home",
     title: "Home",
   },
   {
-    id: "events",
+    id: "/events",
     title: "Events",
   },
   {
-    id: "community",
+    id: "/community",
     title: "Community"
   },
   {
@@ -18,11 +18,11 @@ export const navLinks = [
     title: "Blogs",
   },
   {
-    id: "hackathons",
+    id: "/hackathons",
     title: "Hackathons",
   },
   {
-    id: "resources",
+    id: "/resources",
     title: "Resources",
 
   }
