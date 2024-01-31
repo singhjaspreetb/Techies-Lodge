@@ -16,7 +16,7 @@ To install Techies Lodge, follow these steps:
 1. Clone the repository: `git clone https://github.com/singhjaspreetb/Techies-Lodge.git`
 2. Navigate to the repository directory: `cd Techies-Lodge`
 3. Install dependencies: `npm install`
-4. Start the application: `npm start`
+4. Start the application: `npm run dev`
 
 The application should now be running on your local machine.
 
