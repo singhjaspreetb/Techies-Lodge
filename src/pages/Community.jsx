@@ -3,7 +3,7 @@ import ChatRoom from '../components/ChatRoom'
 
 const Community = () => {
     return (
-        <div class="flex min-h-screen items-center justify-center bg-black-800">
+        <div className="flex min-h-screen items-center justify-center">
             <ChatRoom />
         </div>
     )

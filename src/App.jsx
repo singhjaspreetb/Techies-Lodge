@@ -1,12 +1,13 @@
-import styles from "./style"
-import Home from "./pages/Home"
+import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
+import styles from "./style";
+import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hackathons from "./pages/Hackathons";
-import Event from "./pages/Event"
+import Event from "./pages/Event";
 import Resources from "./pages/Resources";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Community from "./pages/Community";
+import Blogs from "./pages/Blogs";
 
 const Layout = () => {
   return (
@@ -16,7 +17,10 @@ const Layout = () => {
           <Navbar />
         </div>
       </div>
-      <Outlet />
+
+      <div className="flex-grow">
+        <Outlet />
+      </div>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -27,44 +31,22 @@ const Layout = () => {
   );
 };
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/home",
-        element: <Home />,
-      },
-      {
-        path: "/events",
-        element: <Event />,
-      },
-      {
-        path: "/hackathons",
-        element: <Hackathons />,
-      },
-      {
-        path: "/community",
-        element: <Community />,
-      },
-      {
-        path: "/resources",
-        element: <Resources />,
-      }
-    ],
-  },
-]);
 
 
 const App = () => (
-  <div>
-    <RouterProvider router={router} />
-  </div>
+  <Router>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/events" element={<Event />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/hackathons" element={<Hackathons />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/resources" element={<Resources />} />
+      </Route>
+    </Routes>
+  </Router>
 );
 
 export default App;

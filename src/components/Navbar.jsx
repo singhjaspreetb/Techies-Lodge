@@ -2,15 +2,16 @@ import { useState } from "react";
 
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="z-50 w-full flex py-6 justify-between items-center navbar">
       {/* <img  alt="Techies-Lodge" className="w-[124px] h-[32px]" /> */}
-      <h1 className="text-[2rem] font-semibold text-white">Techies Lodge</h1>
+      <h1 className="text-[2rem] font-semibold text-white">Techies lodge</h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -20,7 +21,8 @@ const Navbar = () => {
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            {/* this was changed from a tag to link tag in order to modify the routing on the server side */}
+            <Link to={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -37,7 +39,7 @@ const Navbar = () => {
           className={`${!toggle ? "hidden" : "flex"
             } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="z-5 list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
