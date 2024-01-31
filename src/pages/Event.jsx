@@ -9,13 +9,7 @@ function Event() {
                     <HeroSection />
                 </div>
             </div>
-
-            {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <CTA />
-                </div>
-            </div> */}
-        </div >
+        </ >
     );
 }
 
