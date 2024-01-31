@@ -36,27 +36,27 @@ function Hackathons() {
         },
         {
             name: "Blockchain",
-            link: "hhttps://roadmap.sh/blockchain",
+            link: "https://roadmap.sh/blockchain",
             image: info_img7,
         },
         {
             name: "Devops",
-            link: "hhttps://roadmap.sh/devops",
+            link: "https://roadmap.sh/devops",
             image: info_img3,
         },
         {
             name: "Angular",
-            link: "hhttps://roadmap.sh/angular",
+            link: "https://roadmap.sh/angular",
             image: info_img5,
         },
         {
             name: "Java",
-            link: "hhttps://roadmap.sh/java",
+            link: "https://roadmap.sh/java",
             image: info_img8,
         },
         {
             name: "Python",
-            link: "hhttps://roadmap.sh/python",
+            link: "https://roadmap.sh/python",
             image: info_img9,
         },
     ];
